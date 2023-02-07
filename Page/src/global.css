@@ -1,0 +1,172 @@
+*{
+  color: white
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #594f9b;
+  background-image: -moz-linear-gradient(
+      45deg,
+      #544e7c 25%,
+      transparent 25%,
+      transparent 75%,
+      #544e7c 75%,
+      #483d8b 100%
+    ),
+    -moz-linear-gradient(45deg, #544e7c 25%, transparent 25%, transparent 75%, ##544e7c
+          75%, #544e7c 100%);
+  background-image: -webkit-linear-gradient(
+      45deg,
+      #544e7c 25%,
+      transparent 25%,
+      transparent 75%,
+      #544e7c 0 75%,
+      #544e7c 100%
+    ),
+    -webkit-linear-gradient(45deg, #544e7c 25%, transparent 25%, transparent 75%, #544e7c
+          75%, #544e7c 100%);
+  -moz-background-size: 150px 150px;
+  background-size: 150px 150px;
+  -webkit-background-size: 101px 101px;
+  background-position: 0 0, 50px 50px;
+    ),
+    -webkit-linear-gradient(45deg, #544e7c 25%, transparent 25%, transparent 75%, #544e7c
+          75%, #544e7c 100%);
+  -moz-background-size: 150px 150px;
+  background-size: 150px 150px;
+  -webkit-background-size: 101px 101px;
+  background-position: 0 0, 50px 50px;
+}
+.Menu-caixa {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Lesquerdo {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Ldireito {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Lesquerdo > h2 {
+  color: rgb(220, 189, 255);
+
+}
+.caixa-login {
+  width: 60%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background-color: #483d8b;
+  border-radius: 30px;
+  box-shadow: 0px 10px 40px black;
+  font-family: "Fredoka One", cursive;
+}
+
+.input-login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 1px 0px;
+}
+.input-login > input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #8e7ef5;
+  color: white;
+  font-size: 12pt;
+  box-shadow: 0px 8px 30px #4d4199;
+  box-sizing: border-box;
+  font-family: "Fredoka One", cursive;
+}
+
+.input-login > h5 {
+  color: white;
+  margin-bottom: 2px;
+  font-family: "Fredoka One", cursive;
+}
+.botaologin {
+  width: 25vw;
+  padding: 16px 0px;
+  margin: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: black;
+  background-color: #6556ca;
+  cursor: pointer;
+  box-shadow: 0px 6px 20px #584bad;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+}
+
+.Lesquerdo > img {
+  height: 75vh;
+}
+.subtitulo {
+  background-color: #3e3672;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px black;
+  width: 50vh;
+  text-align: center;
+}
+.subtitulo > h2 {
+  color: rgb(216, 184, 253);
+  font-weight: 800;
+  font-family: "Fredoka One", cursive;
+}
+.usutable {
+  background-color: rgb(101, 83, 182);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 20px;
+  width: 50vw;
+  align-items: center;
+  align-content: center;
+  padding: 2px 2px 2px 2px;
+}
+.usuariospesq {
+  color: rgb(0, 0, 0);
+  border: white;
+  border-radius: 5px;
+  padding: 2px 2px 2px 2px;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.sobre {
+  background-color: rgb(61, 24, 55, 0.5);
+  
+  border-radius: 40px;
+  height: 12px;
+  width: 20px;
+  font-size: 20px;
+  padding: 30px;
+
+}
+.sobre2 {
+width: 30vw;
+  }
